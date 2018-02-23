@@ -93,7 +93,6 @@ public class ActivityTwo extends AppCompatActivity {
             fragment = nextFragment(num);
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
-            //ft.setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             ft.replace(R.id.fragment_place, fragment);
             ft.commit();
             countDownSetup();
