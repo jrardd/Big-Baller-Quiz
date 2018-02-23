@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.android.quizapp.ActivityTwo">
+
+
+    <TextView
+        android:text="@string/intro"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/bbblogo2"
+        android:layout_marginVertical="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/name_field"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:hint="Enter your name"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text = "Continue"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFB4002D"
+        />
+
+
+
+</LinearLayout>
+
+</ScrollView>

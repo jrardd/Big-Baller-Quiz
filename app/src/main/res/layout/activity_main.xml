@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/are_you"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:textColor="#b4002d"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="40dp"
+        />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:background="@drawable/startbutton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@id/logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/bbblogo"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+       />
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:id="@+id/snow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAlphaMin="255"
+        app:snowflakeAngleMax="15"
+        app:snowflakesNum="16"
+        app:snowflakeSizeMin="60dp"
+        app:snowflakeSizeMax="61dp"
+        app:snowflakeSpeedMin="10"
+        app:snowflakeSpeedMax="20"
+        app:snowflakesAlreadyFalling="false"
+        app:snowflakesFadingEnabled="false"
+        app:snowflakeImage="@drawable/money"/>
+
+    </RelativeLayout>
+</ScrollView>

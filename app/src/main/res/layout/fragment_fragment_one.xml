@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.android.quizapp.FragmentOne">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:gravity="center"
+        android:background="#12979797"
+        android:text="What team does Lonzo Ball play on?"
+        android:layout_marginVertical="30dp"
+        android:textSize="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/c1"
+            android:text="Los Angeles Lakers"
+            android:background="#597e7e7e"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c2"
+            android:text="Chicago Bulls"
+            android:background="#597e7e7e"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/c3"
+            android:text="UCLA Bruins"
+            android:background="#597e7e7e"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c4"
+            android:text="Utah Jazz"
+            android:background="#597e7e7e"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

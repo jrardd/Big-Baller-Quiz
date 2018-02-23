@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.android.quizapp.FragmentOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:gravity="center"
+            android:background="#12979797"
+            android:text="What number has Lonzo Ball used on his jersey since High School?"
+            android:layout_marginVertical="30dp"
+            android:textSize="30dp"/>
+
+
+       <EditText
+           android:id="@+id/input1"
+           android:hint="Enter answer here"
+           android:inputType="text"
+           android:textSize="30sp"
+           android:gravity="center_horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/submit_answer"
+            android:text="Submit"
+            android:backgroundTint="#b0ffb300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

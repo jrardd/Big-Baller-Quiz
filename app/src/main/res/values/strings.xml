@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title">Are you a Big Baller?</string>
+    <string name="intro">Find out if you\'re a true Big Baller with the only quiz specifically designed to test your Big Baller Knowledge.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_intro">You will be given 7 Big Baller Questions with 15 seconds to answer each.
+    Tap the correct answer, followed by the red \'Next\' button to proceed to the next question.</string>
+    <string name="lebron_ball">LeBron Ball</string>
+    <string name="lamelo_ball">LaMelo Ball</string>
+    <string name="lavar_ball">LaVar Ball</string>
+    <string name="liangelo_ball">LiAngelo Ball</string>
+    <string name="charles_barkley">Charles Barkley</string>
+    <string name="michael_jordan">Michael Jordan</string>
+    <string name="better_business_bureau">Better Business Bureau</string>
+    <string name="big_baller_brand">Big Baller Brand</string>
+    <string name="basket_ball_bros">Basket Ball Bros</string>
+    <string name="blood_brain_barrier">Blood Brain Barrier</string>
+    <string name="lonzo_ball">Lonzo Ball</string>
+    <string name="kobe_bryant">kobe Bryant</string>
+    <string name="kyle_kuzma">Kyle Kuzma</string>
+</resources>

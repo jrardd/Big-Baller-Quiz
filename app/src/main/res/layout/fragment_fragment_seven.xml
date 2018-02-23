@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.android.quizapp.FragmentOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="#12979797"
+            android:text="Who are the Ball Brothers? (Multiple answers)"
+            android:layout_marginVertical="30dp"
+            android:textSize="30dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/c1"
+                android:text="@string/liangelo_ball"
+                android:background="#597e7e7e"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/c2"
+                android:text="@string/lonzo_ball"
+                android:background="#597e7e7e"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/c3"
+                android:text="@string/lamelo_ball"
+                android:background="#597e7e7e"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/c4"
+                android:text="None of the above"
+                android:background="#597e7e7e"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_answer2"
+            android:text="Submit"
+            android:backgroundTint="#b0ffb300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
