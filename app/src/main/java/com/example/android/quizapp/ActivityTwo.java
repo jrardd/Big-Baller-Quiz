@@ -68,7 +68,7 @@ public class ActivityTwo extends AppCompatActivity {
 
 
     /*
-     *  Refreshes CountDownTimer, switches Fragments, and upon completion, activates the next Activity
+     *  Refreshes CountDownTimer, switches Fragments, and after the 7th Fragment(Quesiton), activates the next Activity
      *  ChangeFragment(View view)
      *  returns : void
      */
