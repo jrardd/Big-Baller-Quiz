@@ -1,7 +1,7 @@
 # Big-Baller-Quiz
 Android Quiz Application: Test knowledge on the Ball Family of Big Baller Brand
 
-# Screenshots
+## Screenshots
 
 [![Screen_Shot_2018-03-04_at_2.52.37_AM.png](https://s13.postimg.org/ojv5p9myv/Screen_Shot_2018-03-04_at_2.52.37_AM.png)](https://postimg.org/image/fc2x8kfwj/)
 [![Screen_Shot_2018-03-04_at_2.53.21_AM.png](https://s13.postimg.org/leajym1nb/Screen_Shot_2018-03-04_at_2.53.21_AM.png)](https://postimg.org/image/panvulmmr/)
